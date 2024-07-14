@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "rules": {
+    "quotes": ["error", "single"],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "comma-dangle": ["error", "never"],
+    "no-param-reassign": [
+      "off",
+      {
+        "props": false
+      }
+    ],
+    "prefer-rest-params": "warn",
+    "arrow-body-style": "off",
+    "prefer-template": "off",
+    "react/prefer-stateless-function": "warn",
+    "react/jsx-no-bind": [
+      "off",
+      {
+        "ignoreRefs": false,
+        "allowArrowFunctions": true,
+        "allowBind": true
+      }
+    ],
+    "react/jsx-indent": ["error", 2],
+    "eol-last": ["error"]
+  }
+}
