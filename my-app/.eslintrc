@@ -20,6 +20,13 @@
   "rules": {
     "quotes": ["error", "single"],
     "react/react-in-jsx-scope": "off",
+    "react/jsx-closing-bracket-location": 
+      [
+        {
+          "nonEmpty": false,
+          "selfClosing": true
+        }
+      ],
     "react/prop-types": "off",
     "comma-dangle": ["error", "never"],
     "no-param-reassign": [

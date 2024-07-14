@@ -1,7 +1,12 @@
 import React from 'react';
-import Test from './components/Component';
+import BtnGroup from './components/BtnGroup';
 
 function App() {
-  return <Test header="Test Header" />;
+  return (
+    <>
+      <h1>Button Group</h1>
+      <BtnGroup />
+    </>
+  );
 }
 export default App;
