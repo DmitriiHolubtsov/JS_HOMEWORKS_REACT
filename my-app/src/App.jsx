@@ -1,7 +1,9 @@
 import React from 'react';
-import Test from './components/Component';
+import Collapse from './components/Collapse';
+
+const text = 'collapse';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <Collapse text={text} opened={false} />;
 }
 export default App;
