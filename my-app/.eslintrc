@@ -17,6 +17,7 @@
     "es2021": true,
     "jest": true
   },
+  "plugins": ["react"],
   "rules": {
     "quotes": ["error", "single"],
     "react/react-in-jsx-scope": "off",
@@ -31,13 +32,22 @@
     "prefer-rest-params": "warn",
     "arrow-body-style": "off",
     "prefer-template": "off",
-    "react/prefer-stateless-function": "warn",
+    "react/prefer-stateless-function": "off",
+    "react/jsx-closing-bracket-location": "off",
+    "htmlWhiteSpaceSensitivity": "off",
+    "bracketSameLine": "off",
     "react/jsx-no-bind": [
       "off",
       {
         "ignoreRefs": false,
         "allowArrowFunctions": true,
         "allowBind": true
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
       }
     ],
     "react/jsx-indent": ["error", 2],
