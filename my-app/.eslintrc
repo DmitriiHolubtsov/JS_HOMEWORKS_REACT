@@ -19,6 +19,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "max-len": ["error", { "code": 120 }],
     "quotes": ["error", "single"],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
@@ -36,6 +37,7 @@
     "react/jsx-closing-bracket-location": "off",
     "htmlWhiteSpaceSensitivity": "off",
     "bracketSameLine": "off",
+    "object-curly-newline": "off",
     "react/jsx-no-bind": [
       "off",
       {
