@@ -1,7 +1,7 @@
 import React from 'react';
-import Test from './components/Component';
+import MyForm from './components/MyForm';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <MyForm />;
 }
 export default App;
