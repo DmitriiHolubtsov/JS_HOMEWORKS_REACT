@@ -1,7 +1,7 @@
 import React from 'react';
-import Test from './components/Component';
+import ModalComponent from './components/Modal/ModalComponent';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <ModalComponent />;
 }
 export default App;
