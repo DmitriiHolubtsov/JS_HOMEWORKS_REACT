@@ -1,7 +1,11 @@
 import React from 'react';
-import Test from './components/Component';
+import TodoBox from './components/TodoBox';
 
 function App() {
-  return <Test header="Test Header" />;
+  return (
+    <div className="container mt-5">
+      <TodoBox />
+    </div>
+  );
 }
 export default App;
