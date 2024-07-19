@@ -1,7 +1,7 @@
 import React from 'react';
-import Test from './components/Component';
+import EventLoggerComponent from './components/EventLoggerComponent';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <EventLoggerComponent />;
 }
 export default App;
