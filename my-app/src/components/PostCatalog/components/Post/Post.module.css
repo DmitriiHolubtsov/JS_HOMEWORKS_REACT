@@ -1,0 +1,16 @@
+.posts_single_post {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 220px;
+}
+
+.posts__post_title {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.posts__post_description {
+  margin: 0;
+  font-size: 1em;
+}

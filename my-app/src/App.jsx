@@ -1,7 +1,7 @@
 import React from 'react';
-import Test from './components/Component';
+import PostCatalog from './components/PostCatalog/PostCatalog';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <PostCatalog />;
 }
 export default App;
