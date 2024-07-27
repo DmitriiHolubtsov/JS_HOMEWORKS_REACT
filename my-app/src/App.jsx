@@ -1,7 +1,11 @@
 import React from 'react';
-import Test from './components/Component';
+import MarkdownEditor from './components/MarkdownEditor';
 
 function App() {
-  return <Test header="Test Header" />;
+  const handleContentChange = (content) => {
+    console.log(content);
+  };
+
+  return <MarkdownEditor onContentChange={handleContentChange} />;
 }
 export default App;
