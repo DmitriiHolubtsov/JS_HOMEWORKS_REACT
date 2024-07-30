@@ -1,7 +1,7 @@
 import React from 'react';
-import Test from './components/Component';
+import TodoBox from './components/TodoBox';
 
 function App() {
-  return <Test header="Test Header" />;
+  return <TodoBox />;
 }
 export default App;
