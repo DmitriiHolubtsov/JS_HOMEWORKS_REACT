@@ -19,15 +19,16 @@
   },
   "plugins": ["react"],
   "rules": {
+    "no-alert": "off",
     "max-len": ["error", { "code": 120 }],
     "quotes": ["error", "single"],
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": [
-        "error",
-        {
-            "namedComponents": "function-declaration",
-            "unnamedComponents": "arrow-function"
-        }
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
     ],
     "react/prop-types": "off",
     "comma-dangle": ["error", "never"],
