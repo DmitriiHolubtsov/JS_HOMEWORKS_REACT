@@ -19,13 +19,14 @@
   },
   "plugins": ["react"],
   "rules": {
+    "default-param-last": "off",
     "max-len": ["error", { "code": 120 }],
     "quotes": ["error", "single"],
     "react/react-in-jsx-scope": "off",
     "react/function-component-definition": [
         "error",
         {
-            "namedComponents": "function-declaration",
+            "namedComponents": "arrow-function",
             "unnamedComponents": "arrow-function"
         }
     ],
